@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caryatid - PRAYAAG 5.0</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="caryatid.css" />  
+</head>
+<body>
+  <canvas id="canvas3d"></canvas>
+  
+  <div class="content-wrapper">
+    <nav class="navbar">
+      <div class="nav-logo">PRAYAAG 5.0</div>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="vistara.html">Vistara</a></li>
+        <li><a href="caryatid.html">Caryatid</a></li>
+        <li><a href="codex.html">Codex</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h1>CARYATID</h1>
+      <p class="hero-tagline">Building Tomorrow's Infrastructure</p>
+      <p class="hero-intro">The Civil Engineering Department Association of LBS Institute of Technology for Women, dedicated to shaping future engineers through innovation, collaboration, and technical excellence at PRAYAAG 5.0.</p>
+       <div class="register-container">
+        <a href="#our-events" class="hero-register-btn">
+          <span>Register for Events</span>
+        </a>
+      </div>
+    </section>
+    
+
+    <section class="section about-section">
+  <div class="about-container">
+    <img src="../assets/images/caryatid-logo.png" class="about-logo" alt="Codex Logo">
+    <div class="about-text">
+      <h2>About Caryatid</h2>
+      <p>Caryatid is the Civil Engineering Department Association at LBS Institute of Technology for Women, committed to fostering technical excellence, innovation, and professional growth among aspiring civil engineers. We bridge the gap between academic knowledge and real-world applications through hands-on projects, competitions, and workshops at PRAYAAG, our premier tech fest. From structural design challenges to sustainable construction initiatives, Caryatid empowers students to become the architects of tomorrow's built environment.</p>
+    </div>
+  </div>
+</section>
+
+
+    <section class="section">
+      <h2>Glimpses of Caryatid</h2>
+      <div class="video-container">
+        <video controls>
+          <source src="../videos/caryatid-highlights.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+   <section class="section">
+  <h2>Event Schedule</h2>
+  <div class="schedule-wrapper">
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Event</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Day 1 Events (31st Jan) -->
+        <tr>
+          <td class="day-header" rowspan="7">Day 1<br>7th Feb</td>
+          <td class="event-name">AutoCAD Arena</td>
+          <td class="event-time">10:00 AM - 12:00 PM</td>
+        </tr>
+        <tr>
+          <td class="event-name">BIM Talk Session</td>
+          <td class="event-time">10:00 AM - 11:30 AM</td>
+        </tr>
+        <tr>
+          <td class="event-name">Foundation Forge</td>
+          <td class="event-time">9:00 AM - 4:00 PM</td>
+        </tr>
+        <tr>
+          <td class="event-name">Research Competition</td>
+          <td class="event-time">All Day</td>
+        </tr>
+        <tr>
+          <td class="event-name">Techcanvas</td>
+          <td class="event-time">2:00 PM - 3:30 PM</td>
+        </tr>
+        <tr>
+          <td class="event-name">Touch & Tell:Soil Edition</td>
+          <td class="event-time">1:00 PM - 2:30 PM</td>
+        </tr>
+        <tr>
+          <td class="event-name">Geocraze</td>
+          <td class="event-time">9:30 AM - 10:30 AM</td>
+        </tr>
+
+        <!-- Day 2 Events (1st Feb) -->
+        <tr>
+          <td class="day-header" rowspan="7">Day 2<br>8th Feb</td>
+          <td class="event-name">Research Competition</td>
+          <td class="event-time">All Day</td>
+        </tr>
+        <tr>
+          <td class="event-name">Tower of tension</td>
+          <td class="event-time">10:00 AM - 12:00 PM</td>
+        </tr>
+        <tr>
+          <td class="event-name">Structura Stick</td>
+          <td class="event-time">3:00 PM - 5:00 PM</td>
+        </tr>
+        <tr>
+          <td class="event-name">Structural Snapshot</td>
+          <td class="event-time">2:00 PM - 4:00 PM</td>
+        </tr>
+        <tr>
+          <td class="event-name">Retain and Regain</td>
+          <td class="event-time">9:30 AM - 11:30 AM</td>
+        </tr>
+        <tr>
+          <td class="event-name">Civil Dumb Charades</td>
+          <td class="event-time">10:00 AM - 12:00 PM</td>
+        </tr>
+        <tr>
+          <td class="event-name">Career Pathways</td>
+          <td class="event-time">10:30 AM - 11:30 AM</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+    <section id="our-events" class="section">
+      <h2>Our Events</h2>
+      <div class="events-grid">
+       <!-- Event 1 -->
+<div class="event-item" data-event="1">
+  <img src="../assets/images/caryatid/autocad arena.jpeg" alt="autocad arena">
+  <div class="event-overlay">
+    <h3>AutoCAD Arena</h3>
+    <p>Learn AutoCAD skills</p>
+    <a href="https://forms.gle/wFQCc3L37fFDBHNC8" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+
+<!-- Event 2 -->
+<div class="event-item" data-event="2">
+  <img src="../assets/images/caryatid/bim.jpeg" alt="Event 2">
+  <div class="event-overlay">
+    <h3>BIM Talk Session</h3>
+    <p>Talk Session on Building Information Modeling (BIM)</p>
+    <a href="https://forms.gle/t5cybTgZNP13GpL86" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+
+<!-- Event 3 -->
+<div class="event-item" data-event="3">
+  <img src="../assets/images/caryatid/captionthiswall.jpeg" alt="Event 3">
+  <div class="event-overlay">
+    <h3>Caption this Wall</h3>
+    <p>Craft a unique, witty, and impactful caption</p>
+    <a href="https://forms.gle/hTwVP11uPXrG4JP79" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+
+<!-- Event 4 -->
+<div class="event-item" data-event="4">
+  <img src="../assets/images/caryatid/careerpathways.jpeg" alt="Event 4">
+  <div class="event-overlay">
+    <h3>Career Pathways</h3>
+    <p>Expert guidance on various career opportunities</p>
+    <a href="https://forms.gle/4LqMcHRiovFQXMCK8" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+
+<!-- Event 5 -->
+<div class="event-item" data-event="5">
+  <img src="../assets/images/caryatid/civildubcharades.jpeg" alt="Event 5">
+  <div class="event-overlay">
+    <h3>Civil Dumb Charades</h3>
+    <p>Gaming event</p>
+    <a href="https://share.google/7HX56cgXc5yoav4XN" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+
+<!-- Event 6 -->
+<div class="event-item" data-event="6">
+  <img src="../assets/images/caryatid/foundationforge.jpeg" alt="Event 6">
+  <div class="event-overlay">
+    <h3>Foundation Forge</h3>
+    <p> Hands-on workshop on creating a miniature footing
+</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScVG_T9kERd5ICntNFmve9M_ycyYXkCeT0pJ2fOZ6P0Tiq_5g/viewform?usp=publish-editor" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+
+<!-- Event 7 -->
+<div class="event-item" data-event="7">
+  <img src="../assets/images/caryatid/researchcomp.jpeg" alt="Event 7">
+  <div class="event-overlay">
+    <h3>Research Competition</h3>
+    <p>A sustainability-themed Research</p>
+    <a href="https://forms.gle/YGSNArBeWNhEuTwx9" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+
+<!-- Event 8 -->
+<div class="event-item" data-event="8">
+  <img src="../assets/images/caryatid/retainandregain.jpeg" alt="Event 8">
+  <div class="event-overlay">
+    <h3>Retain and Reign</h3>
+    <p>Build a retaining wall model</p>
+    <a href="https://forms.gle/hDspDDW7Lqu5dnht5" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+<!-- Event 9 -->
+<div class="event-item" data-event="9">
+  <img src="../assets/images/caryatid/structural snapshot.jpeg" alt="Event 9">
+  <div class="event-overlay">
+    <h3>Structural Snapshot</h3>
+    <p>Capture the art behind structures</p>
+    <a href="https://forms.gle/fGKWqgrn8mVUzH4P9" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+<!-- Event 10 -->
+<div class="event-item" data-event="10">
+  <img src="../assets/images/caryatid/Structurastick.jpeg" alt="Event 10">
+  <div class="event-overlay">
+    <h3>Structura Stick</h3>
+    <p>Structural challenge for constructing building using ice-cream sticks</p>
+    <a href="https://forms.gle/LMybEP94sgJmK2vY8" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+<!-- Event 11 -->
+<div class="event-item" data-event="11">
+  <img src="../assets/images/caryatid/techcanvas.jpeg" alt="Event 11">
+  <div class="event-overlay">
+    <h3>Techcanvas</h3>
+    <p>Digital poster making competition</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDo8_BfBaqkRlJnW6C0VZYtOhwY87Q-QSoHuZzF2Te6uHr5A/viewform?usp=publish-editor" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+<!-- Event 12 -->
+<div class="event-item" data-event="12">
+  <img src="../assets/images/caryatid/touchandtell.jpeg" alt="Event 12">
+  <div class="event-overlay">
+    <h3>Touch and Tell</h3>
+    <p>Explore different soil types through touch</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdNO0JlU4sCXss1P16VZoHq7mviACLhQj4_wbP8pUe7Px2GAg/viewform?usp=publish-editor" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+<div class="event-item" data-event="13">
+  <img src="../assets/images/caryatid/geocraze.jpeg" alt="Event 13">
+  <div class="event-overlay">
+    <h3>Geocraze</h3>
+    <p>Master Geotech using quizes</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-JotHWwEmUBCQKpoX8cZnQxjGTKWy18Uj70_tjnc98raOA/viewform?usp=publish-editor" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+<div class="event-item" data-event="14">
+  <img src="../assets/images/caryatid/TOWEROFTENSION.jpeg" alt="Event 14">
+  <div class="event-overlay">
+    <h3>Tower of Tension</h3>
+    <p>Building tower using pins and straws</p>
+    <a href="https://forms.gle/qqcqNWzjcjMUitjr8" target="_blank" class="event-register-btn">
+      Register Now
+    </a>
+  </div>
+</div>
+</div>
+</section>
+
+
+    <!-- Modal with all event details -->
+    <div class="modal" id="eventModal">
+      <span class="close-modal">&times;</span>
+      <div class="modal-content">
+        <img id="modalImage" src="" alt="Event">
+        <div class="modal-details">
+          <h3 id="modalTitle"></h3>
+          <div id="modalDescription"></div>
+          
+          <!-- Tech Canvas Details -->
+          <div id="event1Details" style="display: none;">
+            <h4>AutoCAD Arena</h4>
+            <p>Learn AutoCAD skills</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 07-02-2026</p>
+              <p><strong>Time:</strong> 10:00 AM - 12:00 PM</p>
+              <a href="https://forms.gle/wFQCc3L37fFDBHNC8" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Mould & Marvel Details -->
+          <div id="event2Details" style="display: none;">
+            <h4>BIM Talk Session</h4>
+            <p>Talk Session on Building Information Modeling (BIM)</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 07-02-2026</p>
+              <p><strong>Time:</strong> 10:00 am - 11:30 am</p>
+              <a href="https://forms.gle/t5cybTgZNP13GpL86" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Retain & Reign Details -->
+          <div id="event3Details" style="display: none;">
+            <h4>Caption this Wall</h4>
+            <p>Craft a unique, witty, and impactful caption</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 7-02-2026</p>
+              <p><strong>Time:</strong> 2:00 PM - 04:00 PM</p>
+              <a href="https://forms.gle/hTwVP11uPXrG4JP79" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Geo Craze Details -->
+          <div id="event4Details" style="display: none;">
+            <h4>Career Pathways</h4>
+            <p>Expert guidance on various career opportunities</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 08-02-2026</p>
+              <p><strong>Time:</strong> 10:30 AM - 11:30 AM</p>
+              <a href="https://share.google/7HX56cgXc5yoav4XN" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Touch & Tell Details -->
+          <div id="event5Details" style="display: none;">
+            <h4>Civil Dumb Charades</h4>
+            <p>Gaming event</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 08-02-2026</p>
+              <p><strong>Time:</strong>10:00 AM – 12:00 PM</p>
+              <a href="https://share.google/7HX56cgXc5yoav4XN" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Research Competition Details -->
+          <div id="event6Details" style="display: none;">
+            <h4>Foundation Forge</h4>
+            <p> Hands-on workshop on creating a miniature footing
+</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 07-02-2026</p>
+              <p><strong>Time:</strong> 9AM - 4PM</p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScVG_T9kERd5ICntNFmve9M_ycyYXkCeT0pJ2fOZ6P0Tiq_5g/viewform?usp=publish-editor" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Tower of Tension Details -->
+          <div id="event7Details" style="display: none;">
+            <h4>Research Competition</h4>
+            <p>A sustainability-themed Research</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 07-02-2026 & 08-02-2026</p>
+              <p><strong>Time:</strong> All Day</p>
+              <a href="https://forms.gle/YGSNArBeWNhEuTwx9" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Civil Dumb Charades Details -->
+          <div id="event8Details" style="display: none;">
+            <h4>Retain and Reign</h4>
+            <p>Build a retaining wall model</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 08-02-2026</p>
+              <p><strong>Time:</strong>  9:30 AM - 11:30 AM</p>
+              <a href="https://forms.gle/hDspDDW7Lqu5dnht5" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Caption This Wall Details -->
+          <div id="event9Details" style="display: none;">
+            <h4>Structural Snapshot</h4>
+            <p>capture the art behind structures</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 08-02-2026</p>
+              <p><strong>Time:</strong> 2:00 PM -4:00 PM</p>
+              <a href="https://forms.gle/fGKWqgrn8mVUzH4P9" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Structura Stick Details -->
+          <div id="event10Details" style="display: none;">
+            <h4>Structura Stick</h4>
+            <p>structural challenge for constructing building using ice-cream sticks</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 08-02-2026</p>
+              <p><strong>Time:</strong>  3:00 PM – 5:00 PM</p>
+              <a href="https://forms.gle/LMybEP94sgJmK2vY8" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Foundation Forge Details -->
+          <div id="event11Details" style="display: none;">
+            <h4>Techcanvas</h4>
+            <p>Digital poster making competition</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 07-02-2026</p>
+              <p><strong>Time:</strong>2:00 PM - 3:30 PM</p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDo8_BfBaqkRlJnW6C0VZYtOhwY87Q-QSoHuZzF2Te6uHr5A/viewform?usp=publish-editor" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- Career Pathways Details -->
+          <div id="event12Details" style="display: none;">
+            <h4>Touch and Tell</h4>
+            <p>Explore different soil types through touch</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 07-02-2026</p>
+              <p><strong>Time:</strong> 1:00 PM - 2:30 PM</p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdNO0JlU4sCXss1P16VZoHq7mviACLhQj4_wbP8pUe7Px2GAg/viewform?usp=publish-editor" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <div id="event13Details" style="display: none;">
+            <h4>Geo Craze</h4>
+            <p>Master Geotech using quizes</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 07-02-2026</p>
+              <p><strong>Time:</strong> 9:30 AM to 10:30 AM</p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-JotHWwEmUBCQKpoX8cZnQxjGTKWy18Uj70_tjnc98raOA/viewform?usp=publish-editor" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+          <!-- AutoCAD Arena Details -->
+          <div id="event14Details" style="display: none;">
+            <h4>Tower of Tension</h4>
+            <p>Build towers using pins and straws</p>
+            <div class="event-details">
+              <p><strong>Date:</strong> 08-02-2026</p>
+              <p><strong>Time:</strong> 10:00 am - 12:00 pm</p>
+              <a href="https://forms.gle/qqcqNWzjcjMUitjr8" target="_blank" class="modal-register-btn">Register Now</a>
+            </div>
+          </div>
+
+         
+
+        </div>
+      </div>
+      </div>
+      </div>
+      </section>
+  </div>
+
+      
+    
+   <div class="footer-spacer"></div>
+<footer class="prayaag-footer">
+  <div class="footer-container">
+
+    <div class="footer-left">
+      <h2>PRAYAAG 5.0</h2>
+      <p>LBS Institute of Technology for Women</p>
+      <span>Code · Create · Construct</span>
+    </div>
+
+    <div class="footer-middle">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+    </div>
+
+    <div class="footer-right">
+      <h4>Contact</h4>
+      <a href="mailto:prayaag@lbsitw.ac.in">prayaag@lbsitw.ac.in</a>
+      <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a>
+
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 <span>PRAYAAG</span>. All rights reserved.
+  </div>
+</footer>
+
+  <script>
+    // 3D Canvas Animation
+    const canvas = document.getElementById('canvas3d');
+    const ctx = canvas.getContext('2d');
+    
+    let width = canvas.width = window.innerWidth;
+    let height = canvas.height = window.innerHeight;
+    
+    window.addEventListener('resize', () => {
+      width = canvas.width = window.innerWidth;
+      height = canvas.height = window.innerHeight;
+    });
+
+    // Particle system for construction dust/debris effect
+    class Particle {
+      constructor() {
+        this.reset();
+      }
+      
+      reset() {
+        this.x = Math.random() * width;
+        this.y = Math.random() * height;
+        this.z = Math.random() * 1000;
+        this.size = Math.random() * 2 + 1;
+        this.speed = Math.random() * 0.5 + 0.2;
+      }
+      
+      update() {
+        this.z -= this.speed;
+        if (this.z <= 0) {
+          this.reset();
+          this.z = 1000;
+        }
+      }
+      
+      draw() {
+        const scale = 1000 / (1000 + this.z);
+        const x2d = (this.x - width / 2) * scale + width / 2;
+        const y2d = (this.y - height / 2) * scale + height / 2;
+        const size = this.size * scale;
+        
+        const opacity = 1 - (this.z / 1000);
+        ctx.fillStyle = `rgba(220, 20, 60, ${opacity * 0.3})`;
+        ctx.fillRect(x2d, y2d, size, size);
+      }
+    }
+
+    // Building/Structure wireframe
+    class Building {
+      constructor(x, y, width, height, depth) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.depth = depth;
+        this.rotation = 0;
+      }
+      
+      update() {
+        this.rotation += 0.002;
+      }
+      
+      draw() {
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        
+        const cos = Math.cos(this.rotation);
+        const sin = Math.sin(this.rotation);
+        
+        // Draw 3D wireframe building
+        ctx.strokeStyle = 'rgba(220, 20, 60, 0.2)';
+        ctx.lineWidth = 1;
+        
+        // Front face
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(this.width, 0);
+        ctx.lineTo(this.width, this.height);
+        ctx.lineTo(0, this.height);
+        ctx.closePath();
+        ctx.stroke();
+        
+        // Back face (with 3D offset)
+        const offsetX = this.depth * cos;
+        const offsetY = this.depth * sin * 0.5;
+        
+        ctx.beginPath();
+        ctx.moveTo(offsetX, offsetY);
+        ctx.lineTo(this.width + offsetX, offsetY);
+        ctx.lineTo(this.width + offsetX, this.height + offsetY);
+        ctx.lineTo(offsetX, this.height + offsetY);
+        ctx.closePath();
+        ctx.stroke();
+        
+        // Connecting lines
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(offsetX, offsetY);
+        ctx.stroke();
+        
+        ctx.beginPath();
+        ctx.moveTo(this.width, 0);
+        ctx.lineTo(this.width + offsetX, offsetY);
+        ctx.stroke();
+        
+        ctx.beginPath();
+        ctx.moveTo(this.width, this.height);
+        ctx.lineTo(this.width + offsetX, this.height + offsetY);
+        ctx.stroke();
+        
+        ctx.beginPath();
+        ctx.moveTo(0, this.height);
+        ctx.lineTo(offsetX, this.height + offsetY);
+        ctx.stroke();
+        
+        ctx.restore();
+      }
+    }
+
+    // Grid system (blueprint style)
+    class Grid {
+      constructor() {
+        this.offset = 0;
+        this.speed = 0.5;
+      }
+      
+      update() {
+        this.offset += this.speed;
+        if (this.offset >= 50) this.offset = 0;
+      }
+      
+      draw() {
+        ctx.strokeStyle = 'rgba(220, 20, 60, 0.05)';
+        ctx.lineWidth = 1;
+        
+        // Vertical lines
+        for (let x = -this.offset; x < width; x += 50) {
+          ctx.beginPath();
+          ctx.moveTo(x, 0);
+          ctx.lineTo(x, height);
+          ctx.stroke();
+        }
+        
+        // Horizontal lines
+        for (let y = -this.offset; y < height; y += 50) {
+          ctx.beginPath();
+          ctx.moveTo(0, y);
+          ctx.lineTo(width, y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    // Rotating blueprint circles
+    class BlueprintCircle {
+      constructor(x, y, radius) {
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
+        this.rotation = Math.random() * Math.PI * 2;
+        this.rotationSpeed = (Math.random() - 0.5) * 0.01;
+        this.segments = 8;
+      }
+      
+      update() {
+        this.rotation += this.rotationSpeed;
+      }
+      
+      draw() {
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.rotation);
+        
+        // Outer circle
+        ctx.strokeStyle = 'rgba(220, 20, 60, 0.15)';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.stroke();
+        
+        // Inner segments
+        for (let i = 0; i < this.segments; i++) {
+          const angle = (Math.PI * 2 / this.segments) * i;
+          ctx.beginPath();
+          ctx.moveTo(0, 0);
+          ctx.lineTo(
+            Math.cos(angle) * this.radius,
+            Math.sin(angle) * this.radius
+          );
+          ctx.stroke();
+        }
+        
+        // Center point
+        ctx.fillStyle = 'rgba(220, 20, 60, 0.3)';
+        ctx.beginPath();
+        ctx.arc(0, 0, 5, 0, Math.PI * 2);
+        ctx.fill();
+        
+        ctx.restore();
+      }
+    }
+
+    // Initialize elements
+    const particles = Array.from({ length: 100 }, () => new Particle());
+    const buildings = [
+      new Building(100, height - 400, 150, 300, 100),
+      new Building(width - 350, height - 350, 180, 250, 120),
+      new Building(width / 2 - 100, height - 450, 200, 350, 150)
+    ];
+    const grid = new Grid();
+    const circles = [
+      new BlueprintCircle(width * 0.2, height * 0.3, 100),
+      new BlueprintCircle(width * 0.8, height * 0.6, 80),
+      new BlueprintCircle(width * 0.5, height * 0.8, 120)
+    ];
+
+    // Animation loop
+    function animate() {
+      ctx.fillStyle = 'rgba(10, 10, 10, 0.1)';
+      ctx.fillRect(0, 0, width, height);
+      
+      grid.update();
+      grid.draw();
+      
+      particles.forEach(p => {
+        p.update();
+        p.draw();
+      });
+      
+      buildings.forEach(b => {
+        b.update();
+        b.draw();
+      });
+      
+      circles.forEach(c => {
+        c.update();
+        c.draw();
+      });
+      
+      requestAnimationFrame(animate);
+    }
+    
+    animate();
+
+// Toggle menu
+const toggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+toggle.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+
+// Event data mapping (IDs must match HTML divs)
+const eventData = {
+  1: { title: "Autocad Arena", htmlId: "event1Details" },
+  2: { title: "BIM Talk Session", htmlId: "event2Details" },
+  3: { title: "Caption this Wall", htmlId: "event3Details" },
+  4: { title: "Career Pathways", htmlId: "event4Details" },
+  5: { title: "Civil Dumb Charades", htmlId: "event5Details" },
+  6: { title: "Foundation Forge", htmlId: "event6Details" },
+  7: { title: "Research Competition", htmlId: "event7Details" },
+  8: { title: "Retain and Reign", htmlId: "event8Details" },
+  9: { title: "Structural Snapshot", htmlId: "event9Details" },
+  10: { title: "Structura Stick", htmlId: "event10Details" },
+  11: { title: "Techcanvas", htmlId: "event11Details" },
+  12: { title: "Touch and Tell", htmlId: "event12Details" },
+  13: { title: "GeoCraze", htmlId: "event13Details" },
+  14: { title: "Tower of Tension", htmlId: "event14Details" }
+};
+
+// Modal elements
+const modal = document.getElementById('eventModal');
+const modalImage = document.getElementById('modalImage');
+const modalTitle = document.getElementById('modalTitle');
+const modalDescription = document.getElementById('modalDescription');
+const closeModal = document.querySelector('.close-modal');
+
+// Hide all event details
+function hideAllEventDetails() {
+  document.querySelectorAll('[id$="Details"]').forEach(el => el.style.display = "none");
+  modalDescription.style.display = "none";
+}
+
+// Show modal on event click
+document.querySelectorAll('.event-item').forEach(item => {
+  item.addEventListener('click', function(e) {
+    if (e.target.classList.contains('event-register-btn')) return;
+
+    const eventId = this.getAttribute('data-event');
+    const event = eventData[eventId];
+
+    if (event) {
+      const imgElement = this.querySelector('img');
+      modalImage.src = imgElement ? imgElement.src : "";
+
+      modalTitle.textContent = event.title;
+
+      hideAllEventDetails();
+
+      const detailsDiv = document.getElementById(event.htmlId);
+      if (detailsDiv) detailsDiv.style.display = "block";
+
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  });
+});
+
+// Close modal functions
+closeModal.addEventListener('click', () => {
+  modal.classList.remove('active');
+  document.body.style.overflow = 'auto';
+});
+
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && modal.classList.contains('active')) {
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
+  }
+});
+
+// Scroll animations
+const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -100px 0px' };
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = '1';
+      entry.target.style.transform = 'translateY(0)';
+    }
+  });
+}, observerOptions);
+
+document.querySelectorAll('.section, .event-item, .schedule-table').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(30px)';
+  el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+  observer.observe(el);
+});
+
+  </script>
+</body>
+</html>
